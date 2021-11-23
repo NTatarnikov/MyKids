@@ -27,6 +27,7 @@ struct TextFieldText: ViewModifier {
       .padding(EdgeInsets(top: 0, leading: 10, bottom: 5, trailing: 0))
       .disableAutocorrection(true)
 //      .frame(width: .infinity, height: 30)
+      
   }
 }
 
