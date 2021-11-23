@@ -11,6 +11,7 @@
 		113B7045274D6EEC0092A076 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113B7044274D6EEC0092A076 /* ContentView.swift */; };
 		113B7047274D6EED0092A076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113B7046274D6EED0092A076 /* Assets.xcassets */; };
 		113B704A274D6EED0092A076 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113B7049274D6EED0092A076 /* Preview Assets.xcassets */; };
+		113B7051274D7CBD0092A076 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113B7050274D7CBD0092A076 /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		113B7044274D6EEC0092A076 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		113B7046274D6EED0092A076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		113B7049274D6EED0092A076 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		113B7050274D7CBD0092A076 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		113B7041274D6EEC0092A076 /* MyKids */ = {
 			isa = PBXGroup;
 			children = (
-				113B7042274D6EEC0092A076 /* MyKidsApp.swift */,
 				113B7044274D6EEC0092A076 /* ContentView.swift */,
+				113B7050274D7CBD0092A076 /* Styles.swift */,
+				113B7042274D6EEC0092A076 /* MyKidsApp.swift */,
 				113B7046274D6EED0092A076 /* Assets.xcassets */,
 				113B7048274D6EED0092A076 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113B7051274D7CBD0092A076 /* Styles.swift in Sources */,
 				113B7045274D6EEC0092A076 /* ContentView.swift in Sources */,
 				113B7043274D6EEC0092A076 /* MyKidsApp.swift in Sources */,
 			);
