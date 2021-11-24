@@ -13,9 +13,9 @@ import SwiftUI
 struct TextFieldHeader: ViewModifier {
   func body(content: Content) -> some View {
     content
+      .foregroundColor(Color(red: 0.4, green: 0.4, blue: 0.4))
       .padding(EdgeInsets(top: 5, leading: 10, bottom: -10, trailing: 0))
       .frame(maxWidth: .infinity, alignment: .leading)
-      .foregroundColor(Color(red: 0.4, green: 0.4, blue: 0.4))
   }
 }
 

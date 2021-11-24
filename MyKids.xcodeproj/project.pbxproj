@@ -15,6 +15,7 @@
 		11AEC8D9274DA78E0032E87E /* ParentKidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AEC8D8274DA78E0032E87E /* ParentKidModel.swift */; };
 		11AEC8DB274DA7B60032E87E /* KidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AEC8DA274DA7B60032E87E /* KidModel.swift */; };
 		11AEC8DD274DAB5B0032E87E /* ParentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AEC8DC274DAB5B0032E87E /* ParentModel.swift */; };
+		11AEC8E0274DB0EF0032E87E /* addKid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AEC8DF274DB0EF0032E87E /* addKid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		11AEC8D8274DA78E0032E87E /* ParentKidModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentKidModel.swift; sourceTree = "<group>"; };
 		11AEC8DA274DA7B60032E87E /* KidModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidModel.swift; sourceTree = "<group>"; };
 		11AEC8DC274DAB5B0032E87E /* ParentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentModel.swift; sourceTree = "<group>"; };
+		11AEC8DF274DB0EF0032E87E /* addKid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addKid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				11AEC8DE274DAEF20032E87E /* Models */,
 				113B7044274D6EEC0092A076 /* ContentView.swift */,
+				11AEC8DF274DB0EF0032E87E /* addKid.swift */,
 				113B7050274D7CBD0092A076 /* Styles.swift */,
 				113B7042274D6EEC0092A076 /* MyKidsApp.swift */,
 				113B7046274D6EED0092A076 /* Assets.xcassets */,
@@ -162,6 +165,7 @@
 				11AEC8DB274DA7B60032E87E /* KidModel.swift in Sources */,
 				113B7045274D6EEC0092A076 /* ContentView.swift in Sources */,
 				11AEC8D9274DA78E0032E87E /* ParentKidModel.swift in Sources */,
+				11AEC8E0274DB0EF0032E87E /* addKid.swift in Sources */,
 				113B7043274D6EEC0092A076 /* MyKidsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
