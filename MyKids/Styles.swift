@@ -13,8 +13,17 @@ import SwiftUI
 struct TextFieldHeader: ViewModifier {
   func body(content: Content) -> some View {
     content
-      .foregroundColor(Color(red: 0.4, green: 0.4, blue: 0.4))
-      .padding(EdgeInsets(top: 5, leading: 10, bottom: -10, trailing: 0))
+      .foregroundColor(Color(
+        red: 0.4,
+        green: 0.4,
+        blue: 0.4)
+      )
+      .padding(EdgeInsets(
+        top: 5,
+        leading: 10,
+        bottom: -10,
+        trailing: 0)
+      )
       .frame(maxWidth: .infinity, alignment: .leading)
   }
 }
@@ -23,13 +32,16 @@ struct TextFieldHeader: ViewModifier {
 struct TextFieldText: ViewModifier {
   func body(content: Content) -> some View {
     content
-//      .frame(width: .infinity, height: 40)
-      .padding(EdgeInsets(top: 0, leading: 10, bottom: 5, trailing: 0))
+      .padding(EdgeInsets(
+        top: 0,
+        leading: 10,
+        bottom: 5,
+        trailing: 0)
+      )
       .disableAutocorrection(true)
-//      .frame(width: .infinity, height: 30)
-      
   }
 }
+
 
 // Extension view to not to write .modifier every time
 extension View {
